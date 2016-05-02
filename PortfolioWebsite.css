@@ -1,0 +1,417 @@
+body {
+	margin: 0% auto;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 24px;
+	margin: none;
+	margin-top: 0;
+	-webkit-font-smoothing: antialiased;
+	background: linear-gradient(black 65%, violet); /*#5362c7, #d84c5d, #f46d1c*/ 
+}
+
+#header{
+	width: 100%;
+	height: 550px;
+	/*background-image: url(images/pinkNike.jpg);*/
+	background-size: 100% 100%;
+	margin-bottom: 20px;
+	/*left: -219px;*/
+	
+}
+
+#parallax-section-one {
+  height: 90vh;
+}
+
+#parallax-container-one {
+  height: 75vh;
+  margin-top: 10vh;
+  background: url('images/Sunset.gif');
+  background-position: center;
+  background-attachment: fixed;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.navbar {
+	position: absolute;
+	top: 7px;
+	width: 100%;
+	height: 70px;
+	word-spacing: 30px;
+	text-align: center;
+	padding: 5px;
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	/*right: 0%;*/
+	/*background: rgba(115, 115, 115, 0.8);*/
+}
+
+#nav-words {
+	color: white;
+	font-weight: 400;
+	font-size: 22px;
+	text-align: center;
+    text-decoration: none;
+    /*text-shadow: 2px 2px purple;*/
+}
+
+#nav-words:hover {
+	/*color: #433eda; */
+	font-weight: 400;
+	font-weight: bold;
+	word-spacing: 40px
+}
+
+#display {
+	
+}
+
+#handle {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 130px;
+	color: white;
+	font-family: Lobster;	
+	font-size: 66px;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px black;
+}
+
+#topQuote{
+	position: absolute;
+	width: 100%;
+	top: 210px;
+	font-size: 25px;
+	color: white;
+	text-shadow: 1px 1px black;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.2;
+	/*background: rgba(67, 62, 218, 0.4);*/
+}
+
+#paragraph {
+	font-size: 24px;
+	color: white;
+	/*background: rgba(10, 10, 10, 0.6);*/
+	text-align: center;
+	margin: 0% auto;
+	width: 70%;
+	margin-top: 100px;
+}
+
+#portfolio {
+	font-family: Lobster;
+	color: violet;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: ;
+	text-shadow: 1px 1px purple;
+}
+
+#projects-row{
+	width: 100vw;
+	padding: 25px;
+}
+
+#project-columns {
+	padding: 0px 40px;
+}
+
+.thumbnail img {
+	height: 240px;
+}
+
+.caption p{
+	font-size: 16px;
+}
+
+#div-section-parallax-two {
+	width: 100%;
+}
+
+#parallax-section-two {
+  height: 50vh;
+}
+
+#parallax-container-two {
+	width: 100%;
+	height: 50vh;
+  	background: url('images/sunset.jpeg');
+  	background-size: 100% 100%;
+  	background-position: center;
+  	background-attachment: fixed;
+}
+
+#last-section {
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	margin-bottom: 50px;
+	
+}
+
+#row-sponsor{
+	width: 100%;
+	margin: 75px 0px 30px 0px;
+}
+
+#sponsor {
+	text-align: center;
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: Lobster;
+}
+
+#row-contain-last-section{
+	margin: 0% auto;
+	width: 90%;
+
+}
+
+#div-contain-circles {
+	/*margin: 0% auto;*/
+	/*text-align: center;*/
+	/*margin-bottom: 15px;*/
+    background-color: transparent;
+    display: inline-block;
+    width: 100%;
+}
+
+.circle {
+	margin: 0% auto;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	text-align: center;
+	color: black;
+	position: relative;
+	margin-bottom: 20px;
+	background-repeat: repeat-x;
+}
+
+#circleOne {
+	background-image: url(images/backpack.jpeg);
+	background-size: 100% 95%;
+	font-size: 22px;
+	left: 0%;
+	background-color: white;
+	
+}
+
+#j {
+	position: absolute;
+	top: 10%;
+	left: 3%;
+	color: black;
+	font-size: 20px;
+}
+
+#circleTwo {
+	background-image: url(images/fashion2.jpeg);
+	background-size: 125% 125%;
+	
+}
+
+#k {
+	position: absolute;
+	text-align: center;
+	color: black;
+	font-size: 26px;
+	top: 30%;
+	left: 8%;
+}
+
+#circleThree {
+	background-image: url(images/clipper2.jpeg);
+	background-size: 100% 110%;
+	/*clear: both;*/
+}
+
+
+#l {
+	position: absolute;
+	font-size: 26px;
+	top: 30%;
+	left: 10%;
+	color: black;
+}
+
+#formsBox{
+	margin: 0% auto;
+	width: 80%;
+	height: 100%;
+	/*left: 0px;*/
+	padding: 5px 40px;
+	border: 2px dashed white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: transparent;
+}
+
+label {
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+.form-control {
+	margin: 0% auto;
+}
+
+#comment_ {
+	width: 80%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 550px) {
+    body {
+    	margin: 0% auto;
+		font-size: 22px;
+		margin: none;
+		margin-top: 0;
+		background: linear-gradient(black 60%, violet);
+	}
+
+	#header{
+		width: 100%;
+		height: 45vh;
+		background-size: 100% 100%;
+		margin-bottom: ;
+		margin: 0% auto;
+
+    }
+
+    #parallax-section-one {
+  		height: 45vh;
+	}
+
+	.parallax-container-one {
+		width: 100%;
+  		height: 44vh;
+  		margin-top: 7vh;
+  		background: url('images/Sunset.gif');
+  		/*background-position: center;*/
+  		background-attachment: fixed;
+  		background-repeat: repeat-y;
+	}
+
+	.navbar {
+		position: absolute;
+		top: 7px;
+		width: 100%;
+		height: 70px;
+		word-spacing: 30px;
+		/*text-align: center;*/
+		padding: 5px;
+		display: flex;
+		align-items: right;
+		justify-content: right;
+		/*right: 0%;*/
+		/*background: rgba(115, 115, 115, 0.8);*/
+	}
+
+	#nav-words {
+		color: white;
+		font-weight: 400;
+		font-size: 22px;
+		text-align: center;
+    	text-decoration: none;
+    	/*text-shadow: 2px 2px purple;*/
+	}
+
+	#nav-words:hover {
+		/*color: #433eda; */
+		font-weight: 400;
+		font-weight: bold;
+		word-spacing: 40px;
+	}
+
+	#topQuote{
+		position: absolute;
+		text-align: center;
+		margin: 0% auto;
+		width: 80%;
+		top: 220px;
+		font-size: 24px;
+		color: white;
+		text-shadow: 1px 1px black;
+		font-weight: 400;
+		line-height: 1.5;
+	/*background: rgba(67, 62, 218, 0.4);*/
+	}
+
+    #paragraph{
+    	width: 80vw;
+    }
+
+	#div-contain-circles {
+		margin: 0% auto;
+		text-align: center;
+		margin-bottom: 15px;
+    	background-color: transparent;
+    	display: inline-block;
+    	width: 200px;
+    	height: 100%;
+
+	}
+
+	.circle {
+		margin: 0% auto;
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		border-radius: 100%;
+		text-align: center;
+		color: black;
+		/*position: relative;*/
+		margin-bottom: 15px;
+		background-repeat: repeat-x;
+	}
+
+	#circleTwo {
+		background-image: url(images/fashion2.jpeg);
+		background-size: 125% 125%;
+		/*display: inline-block;*/
+	
+	}
+
+
+	#circleThree {
+		background-image: url(images/clipper2.jpeg);
+		background-size: 100% 110%;
+		/*display: inline-block;*/
+	}
+
+
+
+
+
+
+}
