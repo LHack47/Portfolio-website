@@ -1,4 +1,10 @@
 $(document).ready(function(){
+//Overlay
+
+  $('.site-overlay-container').on('click', function() {
+    $('#site-overlay').fadeOut(1000);
+  });
+
 //Button one
 	$("#circleOne-text").hide();
 
