@@ -1,40 +1,40 @@
 $(document).ready(function(){
 //Button one
-	$("#j").hide();
+	$("#circleOne-text").hide();
 
 	$("#circleOne").mouseenter(function(){
 		$("#circleOne").css("background", "white");
-		$("#j").show(); 
+		$("#circleOne-text").show(); 
 	});
 	$("#circleOne").mouseleave(function(){
-		$("#j").hide();
+		$("#circleOne-text").hide();
 		$("#circleOne").css("background-image", "url(images/backpack.jpeg)");
 		$("#circleOne").css("background-size", "");
-		$("#circleOne").css("background-repeat", "repeat-x");
+		$("#circleOne").css("background-repeat", "no-repeat");
 
 	});
 //Button Two
-		$("#k").hide();
+		$("#circleTwo-text").hide();
 
 	$("#circleTwo").mouseenter(function(){
 		$("#circleTwo").css("background", "white");
-		$("#k").show(); 
+		$("#circleTwo-text").show(); 
 	});
 	$("#circleTwo").mouseleave(function(){
-		$("#k").hide();
+		$("#circleTwo-text").hide();
 		$("#circleTwo").css("background-image", "url(images/fashion2.jpeg)");
 		$("#circleTwo").css("background-size", "");
 	});
 
 //Button Three
-		$("#l").hide();
+		$("#circleThree-text").hide();
 
 	$("#circleThree").mouseenter(function(){
 		$("#circleThree").css("background", "white");
-		$("#l").show(); 
+		$("#circleThree-text").show(); 
 	});
 	$("#circleThree").mouseleave(function(){
-		$("#l").hide();
+		$("#circleThree-text").hide();
 		$("#circleThree").css("background-image", "url(images/clipper2.jpeg)");
 		$("#circleThree").css("background-size", "");
 	});

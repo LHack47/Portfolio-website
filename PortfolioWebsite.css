@@ -2,7 +2,7 @@ body {
 	margin: 0% auto;
 	text-align: center;
 	font-family: "Raleway", sans-serif;
-	font-size: 24px;
+	font-size: 210%;
 	margin: none;
 	margin-top: 0;
 	-webkit-font-smoothing: antialiased;
@@ -11,22 +11,20 @@ body {
 
 #header{
 	width: 100%;
-	height: 550px;
-	/*background-image: url(images/pinkNike.jpg);*/
+	height: 100vh;
 	background-size: 100% 100%;
-	margin-bottom: 20px;
-	/*left: -219px;*/
-	
+	margin-bottom: ;	
 }
 
 #parallax-section-one {
-  height: 90vh;
+  height: 75vh;
 }
 
 #parallax-container-one {
-  height: 75vh;
+  height: 85vh;
   margin-top: 10vh;
   background: url('images/Sunset.gif');
+  background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
 }
@@ -54,7 +52,7 @@ nav ul li {
 #nav-words {
 	color: white;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: ;
 	text-align: center;
     text-decoration: none;
     /*text-shadow: 2px 2px purple;*/
@@ -64,7 +62,7 @@ nav ul li {
 	/*color: #433eda; */
 	font-weight: 400;
 	font-weight: bold;
-	word-spacing: 40px
+	word-spacing: 40px;
 }
 
 #display {
@@ -78,7 +76,7 @@ nav ul li {
 	top: 130px;
 	color: white;
 	font-family: Lobster;	
-	font-size: 66px;
+	font-size: 300%;
 	font-weight: 400;
 	text-shadow: 2.5px 2.5px black;
 }
@@ -86,8 +84,8 @@ nav ul li {
 #topQuote{
 	position: absolute;
 	width: 100%;
-	top: 210px;
-	font-size: 25px;
+	top: 240px;
+	font-size: ;
 	color: white;
 	text-shadow: 1px 1px black;
 	font-weight: 400;
@@ -97,7 +95,7 @@ nav ul li {
 }
 
 #paragraph {
-	font-size: 24px;
+	font-size: ;
 	color: white;
 	/*background: rgba(10, 10, 10, 0.6);*/
 	text-align: center;
@@ -114,10 +112,11 @@ nav ul li {
 	margin-top: 50px;
 	margin-bottom: ;
 	text-shadow: 1px 1px purple;
+	font-size: 250%;
 }
 
 #projects-row{
-	width: 100vw;
+	width: 100%;
 	padding: 25px;
 }
 
@@ -126,11 +125,12 @@ nav ul li {
 }
 
 .thumbnail img {
-	height: 240px;
+	width: 100%;
+	/*height: 100%;*/
 }
 
 .caption p{
-	font-size: 16px;
+	font-size: ;
 }
 
 #div-section-parallax-two {
@@ -160,15 +160,20 @@ nav ul li {
 
 #row-sponsor{
 	width: 100%;
+	height: 100%;
 	margin: 75px 0px 30px 0px;
+	background-color: transparent;
 }
 
 #sponsor {
 	text-align: center;
-    background-color: transparent;
     color: white;
     text-shadow: 2px 2px black;
     font-family: Lobster;
+}
+
+#descriptions {
+	display: none;
 }
 
 #row-contain-last-section{
@@ -200,49 +205,50 @@ nav ul li {
 }
 
 #circleOne {
-	background-image: url(images/backpack.jpeg);
+	background-image: url("images/backpack.jpeg");
 	background-size: 100% 95%;
-	font-size: 22px;
 	left: 0%;
 	background-color: white;
 	
 }
 
-#j {
+#circleOne-text {
+	font-size: 100%;
 	position: absolute;
 	top: 10%;
 	left: 3%;
 	color: black;
-	font-size: 20px;
+	font-size:;
+	text-align: center;
 }
 
 #circleTwo {
-	background-image: url(images/fashion2.jpeg);
+	background-image: url("images/fashion2.jpeg");
 	background-size: 125% 125%;
 	
 }
 
-#k {
+#circleTwo-text {
 	position: absolute;
 	text-align: center;
 	color: black;
-	font-size: 26px;
-	top: 30%;
-	left: 8%;
+	font-size: 110%;
+	top: 32%;
+	left: 17%;
 }
 
 #circleThree {
-	background-image: url(images/clipper2.jpeg);
+	background-image: url("images/clipper2.jpeg");
 	background-size: 100% 110%;
 	/*clear: both;*/
 }
 
 
-#l {
+#circleThree-text {
 	position: absolute;
-	font-size: 26px;
-	top: 30%;
-	left: 10%;
+	font-size: 110% ;
+	top: 34%;
+	left: 17%;
 	color: black;
 }
 
@@ -259,7 +265,7 @@ nav ul li {
 }
 
 label {
-	font-size: 20px;
+	font-size: ;
 	color: white;
 	text-shadow: 1px 1px black;
 }
@@ -290,44 +296,35 @@ label {
 
 
 
-@media screen and (max-width: 550px) {
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
     body {
     	margin: 0% auto;
-		font-size: 22px;
+		font-size: 200%;
 		margin: none;
 		margin-top: 0;
 		background: linear-gradient(black 60%, violet);
+		text-align: center;
+		-webkit-font-smoothing: antialiased;
 	}
 
 	#header{
 		width: 100%;
-		height: 45vh;
-		background-size: 100% 100%;
+		height: 100%;
+		background: url('images/Aurora.jpeg');
+		background-size: 130% 130%;
 		margin-bottom: ;
 		margin: 0% auto;
+		text-align: center;
 
     }
 
-    #parallax-section-one {
-  		height: 45vh;
-	}
-
-	.parallax-container-one {
-		width: 100%;
-  		height: 44vh;
-  		margin-top: 7vh;
-  		background: url('images/Sunset.gif');
-  		/*background-position: center;*/
-  		background-attachment: fixed;
-  		background-repeat: repeat-y;
-	}
 
 	.navbar {
 		position: absolute;
 		top: 7px;
 		width: 100%;
 		height: 70px;
-		word-spacing: 30px;
+		word-spacing: 15%;
 		/*text-align: center;*/
 		padding: 5px;
 		display: flex;
@@ -340,7 +337,7 @@ label {
 	#nav-words {
 		color: white;
 		font-weight: 400;
-		font-size: 22px;
+		font-size: 300%;
 		text-align: center;
     	text-decoration: none;
     	/*text-shadow: 2px 2px purple;*/
@@ -353,13 +350,26 @@ label {
 		word-spacing: 40px;
 	}
 
+	#handle {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 300px;
+	color: white;
+	font-family: Lobster;	
+	font-size: 700%;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px black;
+}
+
 	#topQuote{
 		position: absolute;
 		text-align: center;
 		margin: 0% auto;
-		width: 80%;
-		top: 220px;
-		font-size: 24px;
+		width: 100%;
+		height: ;
+		top: 600px;
+		font-size: 350%;
 		color: white;
 		text-shadow: 1px 1px black;
 		font-weight: 400;
@@ -367,48 +377,231 @@ label {
 	/*background: rgba(67, 62, 218, 0.4);*/
 	}
 
+
+    #parallax-section-one {
+  		height: 90vh;
+  		
+	}
+
+	#parallax-container-one {
+		
+  		height: 90vh;
+  		margin-top: 8vh;
+  		background: url('images/Sunset.gif');
+  		background-position: center;
+  		background-attachment: fixed;
+  		/*background-repeat: no-repeat;*/
+  		
+	}
+
     #paragraph{
-    	width: 80vw;
+    	font-size: 300%;
+    	width: 90vw;
     }
 
+    #portfolio{
+    	font-size: 550%;
+    }
+
+    #projects-row{
+	width: 100%;
+	height: 100%;
+	padding: 5%;
+	margin-bottom: 20%;
+}
+
+#project-columns {
+	width: 100%;
+	height: 50%;
+	padding: 0px ;
+}
+
+.thumbnail {
+	height: 100%;
+}
+
+.thumbnail img {
+	width: 100%;
+	
+}
+
+.caption h4 {
+	font-size: 300%;
+	color: purple;
+	font-weight: bold;
+}
+
+.caption p{
+	font-size: 300%;
+}
+
+.caption .btn {
+	width: 250px;
+	height: 130px;
+	font-size: 130%;
+	/*text-align: center;*/
+	margin-top: 5%;
+}
+
+    #parallax-section-two {
+  		height: 30vh;
+	}
+
+    #parallax-container-two {
+		width: 100%;
+		height: 30vh;
+  		background: url('images/sunset.jpeg');
+  		background-size: 200% 100%;
+  		background-position: center;
+  		background-attachment: fixed;
+	}
+
+	#row-sponsor{
+		width: 100%;
+		height: 100%;
+		margin: 200px 0px 30px 0px;
+	}
+
+	#sponsor {
+		font-size: 550%;
+		text-align: center;
+    	color: white;
+    	text-shadow: 2px 2px black;
+    	font-family: Lobster;
+	}
+
+	#descriptions {
+		color: white;
+		font-size: 290%;
+		display: inline-block;
+	}
+
 	#div-contain-circles {
+		width: 100%;
+		height: 100%;
 		margin: 0% auto;
 		text-align: center;
 		margin-bottom: 15px;
     	background-color: transparent;
     	display: inline-block;
-    	width: 200px;
-    	height: 100%;
 
 	}
 
 	.circle {
 		margin: 0% auto;
 		display: inline-block;
-		width: 200px;
-		height: 200px;
+		width: 600px;
+		height: 600px;
 		border-radius: 100%;
 		text-align: center;
 		color: black;
-		/*position: relative;*/
+		position: relative;
 		margin-bottom: 15px;
-		background-repeat: repeat-x;
+		background-repeat: no-repeat;
 	}
 
+	#circleOne {
+	background-image: url("images/backpack.jpeg");
+	background-size: 100% 95%;
+	font-size: ;
+	left: 0%;
+	background-color: white;
+	
+}
+
+	#circleOne-text {
+		position: absolute;
+		top: 10%;
+		left: 3%;
+		color: black;
+		font-size: 290%;
+		text-align: center;
+	
+	}
+
+
 	#circleTwo {
-		background-image: url(images/fashion2.jpeg);
+		background-image: url("images/fashion2.jpeg");
 		background-size: 125% 125%;
 		/*display: inline-block;*/
 	
 	}
 
+	#circleTwo-text {
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	color: black;
+	font-size: 400% ;
+	top: 30%;
+	left: 11%;
+}
+
 
 	#circleThree {
-		background-image: url(images/clipper2.jpeg);
+		background-image: url("images/clipper2.jpeg");
 		background-size: 100% 110%;
 		/*display: inline-block;*/
 	}
 
+	#circleThree-text {
+	position: absolute;
+	font-size: 400%;
+	top: 30%;
+	left: 12%;
+	color: black;
+	text-align: center;
+	vertical-align: middle;
+		line-height: ;  
+}
+
+	#formsBox{
+	margin: 0% auto;
+	width: 95%;
+	height: 100%;
+	/*left: 0px;*/
+	padding: 5% 5%;
+	border: 4px dashed white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: transparent;
+}
+
+	label {
+		font-size: 110%;
+		color: white;
+		text-shadow: 1px 1px black;
+	}
+
+	.form-group{
+		font-size: 300%;
+	}
+
+	.form-control {
+		margin: 0% auto;
+		font-size: 100%;
+
+	}
+
+	#name_ {
+		width: 100%;
+		height: 50%;
+	}
+	#email_ {
+		width: 100%;
+		height: 50%;
+		margin-bottom: 4%;
+	}
+
+	#comment_ {
+		width: 80%; 
+	}
+
+	.form-group button {
+		width: 240px;
+		height: 100px;
+		font-size: 110%;
+	}
 
 
 
